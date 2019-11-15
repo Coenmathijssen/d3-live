@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+h1, h2 {
+  font-family: lato, arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: roboto, arial, sans-serif;
+  text-align: center;
+}
+
+.text {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle {
+  fill: #B0E0E6;
+}
+
+.country {
+  fill: #FF7373;
+  stroke: black;
+  stroke-opacity: 0.5;
+}
+
+svg {
+  width: 960px;
+  height: 500px;
+  overflow: visible;
+}
+
+circle {
+  fill: white;
+  stroke: black;
+  stroke-width: .5;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+  transition: all .5s ease-in;
+}
+
+.img:hover {
+  cursor: pointer;
+  opacity: 1;
+  width: 200px;
+  height: 200px;
